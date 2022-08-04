@@ -3,7 +3,7 @@ import Footer from '../components/Footer.js';
 import Header from "../components/Header.js";
 import { useRouter } from 'next/dist/client/router';
 import { format } from "date-fns";
-import ListingCard from '../components/listingCard.js';
+import ListingCard from '../components/ListingCard.js';
 
 function Search({ searchResults }) {
 const router = useRouter();

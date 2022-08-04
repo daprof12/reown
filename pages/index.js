@@ -4,7 +4,7 @@ import Footer from "../components/Footer.js";
 import Header from "../components/Header.js";
 import LargeCard from "../components/LargeCard.js";
 import MediumCard from "../components/MediumCard.js";
-import SmallCard from "../components/smallCard.js";
+import SmallCard from "../components/SmallCard.js";
  
 export default function Home({exploreData, cardsData}) {
   return (
