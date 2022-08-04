@@ -29,3 +29,11 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .button {
+    @apply px-4 py-2 mb-5 border rounded-full cursor-pointer 
+    hover:shadow-lg active:scale-95 active:bg-gray-100 
+    active:font-semibold transition duration-100 ease-out;
+    }
+}
