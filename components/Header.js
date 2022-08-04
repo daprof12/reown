@@ -61,6 +61,7 @@ const selectionRange = {
             layout="fill"
             objectFit="contain"
             objectPosition="left"
+            alt="Image"
           />
       </div>
       {/* Middle search */}

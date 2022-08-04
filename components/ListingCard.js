@@ -10,6 +10,7 @@ function ListingCard({ img, location, title, description, star, price,
         <div className='relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0'>
             <Image src={img}
             layout="fill"
+            alt='reown image'
             objectFit='cover'
             className='rounded-2xl'
             />
